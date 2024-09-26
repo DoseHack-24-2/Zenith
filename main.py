@@ -43,7 +43,7 @@ def run_episode(env, agent, gui, episode_num, max_steps=1000, delay=0.2):
 
 def main():
     # Parse the input file
-    input_file_path = "custom_inputs\i2.txt"  # You can change this to accept command-line arguments
+    input_file_path = "custom_inputs\i1.txt"  # You can change this to accept command-line arguments
     grid, num_bots = parse_input_file(input_file_path)
 
     # Set up the environment
